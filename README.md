@@ -3,7 +3,7 @@
 This is a repository of NLP models trained by NLP Town. If you need custom 
 models, get in touch through [our website](http://www.nlp.town).
 
-![Made with spaCy](img/made%20with%20%25E2%259D%25A4%20and-spaCy-09a3d5.svg)
+![<img src="img/made%20with%20%25E2%259D%25A4%20and-spaCy-09a3d5.svg">](https://spacy.io/)
 
 ## Models
 
