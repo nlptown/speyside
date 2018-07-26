@@ -38,7 +38,7 @@ def evaluate(predicted_labels, gold_labels):
 
 def test_sentiment():
     nlp = spacy.load("en_sentiment_reviews_sm")
-    texts, gold_labels = read_file("tests/data/sentiment/test.ft.txt")
+    texts, gold_labels = read_file("tests/data/sentiment/test.txt")
 
     predicted_labels = []
     for text in tqdm(texts):
@@ -47,6 +47,8 @@ def test_sentiment():
 
     scores = evaluate(predicted_labels, gold_labels)
 
-    assert scores["textcat_p"] >= 0.9455349999999777
-    assert scores["textcat_r"] >= 0.9455349999999777
-    assert scores["textcat_f"] >= 0.9455349999999777
+    print(scores)
+
+    assert scores["textcat_p"] >= 0.9439049999999556
+    assert scores["textcat_r"] >= 0.9439049999999556
+    assert scores["textcat_f"] >= 0.9439049999999556
