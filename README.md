@@ -1,6 +1,6 @@
 # Speyside: pretrained spaCy models by NLP Town
 
-![Made with spaCy](https://img.shields.io/badge/made%20with%20❤%20and-spaCy-09a3d5.svg)
+![Made with spaCy]("img/made%20with%20%E2%9D%A4%20and-spaCy-09a3d5.svg")
 
 | Model name    | Size  | Description |
 | ------------- |-------| ------------|
