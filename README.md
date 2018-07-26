@@ -5,6 +5,8 @@ models, get in touch through [our website](http://www.nlp.town).
 
 ![Made with spaCy](img/made%20with%20%25E2%259D%25A4%20and-spaCy-09a3d5.svg)
 
+## Models
+
 | Model name    | Size  | Description |
 | ------------- |-------| ------------|
 | [en_sentiment_reviews_md](https://github.com/nlptown/speyside/releases/download/0.0.0/en_sentiment_reviews_sm-2.0.0.tar.gz)      | 22MB  | Sentiment classification trained on 3.6M Amazon reviews. |
